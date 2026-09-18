@@ -1,0 +1,6 @@
+framework module AKPageFlipperCollectionView {
+  umbrella header "AKPageFlipperCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}

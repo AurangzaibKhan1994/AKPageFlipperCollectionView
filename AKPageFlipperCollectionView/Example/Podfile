@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AKPageFlipperCollectionView_Example' do
+  pod 'AKPageFlipperCollectionView', :path => '../'
+
+  target 'AKPageFlipperCollectionView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

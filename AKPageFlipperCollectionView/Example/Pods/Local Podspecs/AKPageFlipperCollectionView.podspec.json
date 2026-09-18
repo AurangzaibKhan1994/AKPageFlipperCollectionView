@@ -1,0 +1,22 @@
+{
+  "name": "AKPageFlipperCollectionView",
+  "version": "0.1.0",
+  "summary": "A short description of AKPageFlipperCollectionView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AurangzaibKhan1994/AKPageFlipperCollectionView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AurangzaibKhan1994": "aurangzeb.khan@avanzasolutions.com"
+  },
+  "source": {
+    "git": "https://github.com/AurangzaibKhan1994/AKPageFlipperCollectionView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AKPageFlipperCollectionView/Classes/**/*"
+}

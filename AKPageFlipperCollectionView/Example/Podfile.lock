@@ -1,0 +1,16 @@
+PODS:
+  - AKPageFlipperCollectionView (0.1.0)
+
+DEPENDENCIES:
+  - AKPageFlipperCollectionView (from `../`)
+
+EXTERNAL SOURCES:
+  AKPageFlipperCollectionView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AKPageFlipperCollectionView: 39db5d904331982bedb7b6036e77d4bbb26305b9
+
+PODFILE CHECKSUM: 0cc54ba5deecc9e263911c9be7b4e3392812c771
+
+COCOAPODS: 1.16.2
