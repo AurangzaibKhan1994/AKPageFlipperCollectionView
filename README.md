@@ -21,6 +21,14 @@
 - Swift 5.0+
 - Xcode 14+
 
+
+## Demo
+
+| Vertical Flip | Horizontal Book Flip | Both Flips |
+| :---: | :---: | :---: |
+| <video src="https://github.com/user-attachments/assets/1e5398a8-2cac-4cf8-8a80-476079e8d66f" width="250" autoplay loop muted playsinline></video> | <video src="https://github.com/user-attachments/assets/d5822b94-bc0e-4a95-a407-cd5e61c67093" width="250" autoplay loop muted playsinline></video> | <video src="https://github.com/user-attachments/assets/dec0ea2c-d79a-42d7-bc39-1a6cebf95461" width="250" autoplay loop muted playsinline></video> |
+
+
 ## Installation
 
 ### CocoaPods
