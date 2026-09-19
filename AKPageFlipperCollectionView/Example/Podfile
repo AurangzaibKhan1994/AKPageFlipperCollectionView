@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '15.6'
 
 target 'AKPageFlipperCollectionView_Example' do
   pod 'AKPageFlipperCollectionView', :path => '../'
