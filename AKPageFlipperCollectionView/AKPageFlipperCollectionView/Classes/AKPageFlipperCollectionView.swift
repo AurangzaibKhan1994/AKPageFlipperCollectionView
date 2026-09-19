@@ -2,7 +2,8 @@
 //  AKPageFlipperCollectionView.swift
 //  AKPageFlipperCollectionView
 //
-//  Created by avanza on 19/09/2026.
+//  Created by AurangzaibKhan1994 on 09/19/2026.
+//  Copyright (c) 2026 AurangzaibKhan1994. All rights reserved.
 //
 
 import UIKit
