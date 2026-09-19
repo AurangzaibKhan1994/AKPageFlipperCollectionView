@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		069205BC32352DD122AC761AA7F0E5C3 /* AKPageFlipperCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F016D4A63ED15C11964AFC3BBF3E5 /* AKPageFlipperCollectionView.swift */; };
 		15719E5817690A270BEC1F6220D105DA /* Pods-AKPageFlipperCollectionView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EEF9FD46A4F9A602B581608554FAED /* Pods-AKPageFlipperCollectionView_Tests-dummy.m */; };
 		3C1A7ACF504313D7D43B4FED4FBF933A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		6BF4AA98EEBE4278A736F71A0D243B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		6EEC51095C927E951023C3E41A6C6F9E /* Pods-AKPageFlipperCollectionView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CB708F11CEF3B686DAD24B6093E0A1 /* Pods-AKPageFlipperCollectionView_Example-dummy.m */; };
 		83D8CB260926D1004BABACFABE281A62 /* Pods-AKPageFlipperCollectionView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C2F41E691371A1A0F0E6FAD1CDA24D /* Pods-AKPageFlipperCollectionView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9747465A1C5A49466FD480E2F09B36C /* AKPageFlipperCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 118916B9EB240604439B4EF205D4EF27 /* AKPageFlipperCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5BA1048305DE14800C4A925 /* AKPageFlipperCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA1047305DE14800C4A925 /* AKPageFlipperCollectionView.swift */; };
-		B8B2F0B37DDE9EF7DBE700DFBAC332DA /* AKPageFlipperCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FF4BE054064FCEB6F14106F0C20CC4 /* AKPageFlipperCollectionView-dummy.m */; };
+		9D53908C3D6D9BBB0E56B9C2EF5FC133 /* AKPageFlipperCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 222FBD12272137B4B080B8C3C206ED14 /* AKPageFlipperCollectionView-dummy.m */; };
+		A9747465A1C5A49466FD480E2F09B36C /* AKPageFlipperCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B023D02986CD0F0C3B6EF49505809F /* AKPageFlipperCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C87312A8CC20AA41E40619A5352FF3BC /* Pods-AKPageFlipperCollectionView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BBFA761BF9473E98752C622ECA4D7EB /* Pods-AKPageFlipperCollectionView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D990F9ADD025B66B17024BE827375F82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -38,35 +38,35 @@
 
 /* Begin PBXFileReference section */
 		0450899E8D66B5BB640B249081C2207F /* Pods-AKPageFlipperCollectionView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKPageFlipperCollectionView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		118916B9EB240604439B4EF205D4EF27 /* AKPageFlipperCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKPageFlipperCollectionView-umbrella.h"; sourceTree = "<group>"; };
-		12F461D543110E6951B027B5A08F6882 /* AKPageFlipperCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKPageFlipperCollectionView.release.xcconfig; sourceTree = "<group>"; };
+		09B023D02986CD0F0C3B6EF49505809F /* AKPageFlipperCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKPageFlipperCollectionView-umbrella.h"; sourceTree = "<group>"; };
+		20AAD3D3D952F4EDB3378F658F604EA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		21F82C8A10A93E8B71A4D72660FB7220 /* Pods-AKPageFlipperCollectionView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKPageFlipperCollectionView_Example-Info.plist"; sourceTree = "<group>"; };
-		221176F2D9A969928BA0D8DD5916ED4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		222FBD12272137B4B080B8C3C206ED14 /* AKPageFlipperCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKPageFlipperCollectionView-dummy.m"; sourceTree = "<group>"; };
 		27C9113B3087C475A0FD5FADE3FDE80F /* Pods-AKPageFlipperCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKPageFlipperCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2A1AB10BFDDE31A60CBE636188E1A38E /* AKPageFlipperCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKPageFlipperCollectionView-prefix.pch"; sourceTree = "<group>"; };
+		354F016D4A63ED15C11964AFC3BBF3E5 /* AKPageFlipperCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AKPageFlipperCollectionView.swift; path = AKPageFlipperCollectionView/Classes/AKPageFlipperCollectionView.swift; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		389A5D02BD466BCDCBF919A5937C5351 /* Pods-AKPageFlipperCollectionView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKPageFlipperCollectionView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4D5E35C6FD7D322B9CBF8DFD4ECE5AF8 /* Pods_AKPageFlipperCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKPageFlipperCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		668F16DE912C8C99906CABD624055290 /* Pods_AKPageFlipperCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKPageFlipperCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5E35C6FD7D322B9CBF8DFD4ECE5AF8 /* Pods-AKPageFlipperCollectionView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AKPageFlipperCollectionView_Tests"; path = Pods_AKPageFlipperCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE0D5BE83B6F6CA171CDD6F8C79D1C8 /* AKPageFlipperCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKPageFlipperCollectionView-prefix.pch"; sourceTree = "<group>"; };
+		668F16DE912C8C99906CABD624055290 /* Pods-AKPageFlipperCollectionView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AKPageFlipperCollectionView_Example"; path = Pods_AKPageFlipperCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		745F21E64C66CB40920C51BB3075BF1C /* Pods-AKPageFlipperCollectionView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKPageFlipperCollectionView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		870F00CB1205B6DD259CB37E7503269B /* AKPageFlipperCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKPageFlipperCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ED1E39DAAC6D92D06AD4C77DBDD0E5 /* AKPageFlipperCollectionView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AKPageFlipperCollectionView-Info.plist"; sourceTree = "<group>"; };
+		870F00CB1205B6DD259CB37E7503269B /* AKPageFlipperCollectionView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKPageFlipperCollectionView; path = AKPageFlipperCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBFA761BF9473E98752C622ECA4D7EB /* Pods-AKPageFlipperCollectionView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKPageFlipperCollectionView_Example-umbrella.h"; sourceTree = "<group>"; };
 		8E31026561E42F1CD9E7CEF5DAEA4FA3 /* Pods-AKPageFlipperCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKPageFlipperCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8E8376051EF8C2CEF6B8626FAF1EF0F5 /* AKPageFlipperCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AKPageFlipperCollectionView.modulemap; sourceTree = "<group>"; };
-		9065C21E258273205F172C7FB02E5E89 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8F37C1B97B2D74B440BE09573EB620E1 /* AKPageFlipperCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKPageFlipperCollectionView.debug.xcconfig; sourceTree = "<group>"; };
+		92C5F89FFA45DEF5F2BA1CA66C3A7727 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		94CB708F11CEF3B686DAD24B6093E0A1 /* Pods-AKPageFlipperCollectionView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKPageFlipperCollectionView_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EB1AD10376D9CC54BDE598994887B6A /* Pods-AKPageFlipperCollectionView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKPageFlipperCollectionView_Example.modulemap"; sourceTree = "<group>"; };
+		A2F6A79B1326072E861447E0765B773D /* AKPageFlipperCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKPageFlipperCollectionView.release.xcconfig; sourceTree = "<group>"; };
 		A3EEF9FD46A4F9A602B581608554FAED /* Pods-AKPageFlipperCollectionView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKPageFlipperCollectionView_Tests-dummy.m"; sourceTree = "<group>"; };
-		A4FF4BE054064FCEB6F14106F0C20CC4 /* AKPageFlipperCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKPageFlipperCollectionView-dummy.m"; sourceTree = "<group>"; };
-		B59349A404803977D4A0557052580B81 /* AKPageFlipperCollectionView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AKPageFlipperCollectionView-Info.plist"; sourceTree = "<group>"; };
-		B5BA1047305DE14800C4A925 /* AKPageFlipperCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKPageFlipperCollectionView.swift; sourceTree = "<group>"; };
-		B637100C51691576005E6D6BAD89773E /* AKPageFlipperCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKPageFlipperCollectionView.debug.xcconfig; sourceTree = "<group>"; };
 		B93CE9FEDB410C8F13681F925F2C9B5D /* Pods-AKPageFlipperCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKPageFlipperCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BAA3E0C422FFCFA6434F88CF757DB860 /* Pods-AKPageFlipperCollectionView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKPageFlipperCollectionView_Tests-Info.plist"; sourceTree = "<group>"; };
 		BD89E1265B4186F4E16655DF9CA53104 /* Pods-AKPageFlipperCollectionView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKPageFlipperCollectionView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D003FECBB820DF2838B167586306B179 /* AKPageFlipperCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AKPageFlipperCollectionView.modulemap; sourceTree = "<group>"; };
 		D538D48A8B8D0C2689653DF1E9A5D450 /* Pods-AKPageFlipperCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKPageFlipperCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DD02AA8D0E6C1606A9E0065B33AABA0D /* AKPageFlipperCollectionView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AKPageFlipperCollectionView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1BF998F5683C6DA4472955CAFE3D226 /* AKPageFlipperCollectionView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AKPageFlipperCollectionView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E5C2F41E691371A1A0F0E6FAD1CDA24D /* Pods-AKPageFlipperCollectionView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKPageFlipperCollectionView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E96B7841C1773D59CC2AB62E4EE3400F /* Pods-AKPageFlipperCollectionView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKPageFlipperCollectionView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EF387FC9355CCD4AAFF258846D8584C3 /* Pods-AKPageFlipperCollectionView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKPageFlipperCollectionView_Tests.modulemap"; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		23894E2129876F73D345AA77A3EEB91B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C669568C1F8F76F70D0C54BFE835CB71 /* AKPageFlipperCollectionView */,
+				FA73D6A4A87658CD19444CB830881A4D /* AKPageFlipperCollectionView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -144,33 +144,23 @@
 		6A7183B6593D0104133655156AC7F553 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				870F00CB1205B6DD259CB37E7503269B /* AKPageFlipperCollectionView.framework */,
-				668F16DE912C8C99906CABD624055290 /* Pods_AKPageFlipperCollectionView_Example.framework */,
-				4D5E35C6FD7D322B9CBF8DFD4ECE5AF8 /* Pods_AKPageFlipperCollectionView_Tests.framework */,
+				870F00CB1205B6DD259CB37E7503269B /* AKPageFlipperCollectionView */,
+				668F16DE912C8C99906CABD624055290 /* Pods-AKPageFlipperCollectionView_Example */,
+				4D5E35C6FD7D322B9CBF8DFD4ECE5AF8 /* Pods-AKPageFlipperCollectionView_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94903EAEDF2A6355893B8B1831BA5250 /* Pod */ = {
+		7BA768EAEE2515434A1CACD2465AEFAF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DD02AA8D0E6C1606A9E0065B33AABA0D /* AKPageFlipperCollectionView.podspec */,
-				221176F2D9A969928BA0D8DD5916ED4F /* LICENSE */,
-				9065C21E258273205F172C7FB02E5E89 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9E94B42DCF5662585951C33FD1FB8442 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8E8376051EF8C2CEF6B8626FAF1EF0F5 /* AKPageFlipperCollectionView.modulemap */,
-				A4FF4BE054064FCEB6F14106F0C20CC4 /* AKPageFlipperCollectionView-dummy.m */,
-				B59349A404803977D4A0557052580B81 /* AKPageFlipperCollectionView-Info.plist */,
-				2A1AB10BFDDE31A60CBE636188E1A38E /* AKPageFlipperCollectionView-prefix.pch */,
-				118916B9EB240604439B4EF205D4EF27 /* AKPageFlipperCollectionView-umbrella.h */,
-				B637100C51691576005E6D6BAD89773E /* AKPageFlipperCollectionView.debug.xcconfig */,
-				12F461D543110E6951B027B5A08F6882 /* AKPageFlipperCollectionView.release.xcconfig */,
+				D003FECBB820DF2838B167586306B179 /* AKPageFlipperCollectionView.modulemap */,
+				222FBD12272137B4B080B8C3C206ED14 /* AKPageFlipperCollectionView-dummy.m */,
+				81ED1E39DAAC6D92D06AD4C77DBDD0E5 /* AKPageFlipperCollectionView-Info.plist */,
+				5AE0D5BE83B6F6CA171CDD6F8C79D1C8 /* AKPageFlipperCollectionView-prefix.pch */,
+				09B023D02986CD0F0C3B6EF49505809F /* AKPageFlipperCollectionView-umbrella.h */,
+				8F37C1B97B2D74B440BE09573EB620E1 /* AKPageFlipperCollectionView.debug.xcconfig */,
+				A2F6A79B1326072E861447E0765B773D /* AKPageFlipperCollectionView.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AKPageFlipperCollectionView";
@@ -183,17 +173,6 @@
 				1456E2AFFD9917D9DFD388E2A8A15A38 /* Pods-AKPageFlipperCollectionView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C669568C1F8F76F70D0C54BFE835CB71 /* AKPageFlipperCollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				94903EAEDF2A6355893B8B1831BA5250 /* Pod */,
-				9E94B42DCF5662585951C33FD1FB8442 /* Support Files */,
-				B5BA1047305DE14800C4A925 /* AKPageFlipperCollectionView.swift */,
-			);
-			name = AKPageFlipperCollectionView;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -221,6 +200,27 @@
 				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F0D0C1351FA214F631C5292193E6F170 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E1BF998F5683C6DA4472955CAFE3D226 /* AKPageFlipperCollectionView.podspec */,
+				92C5F89FFA45DEF5F2BA1CA66C3A7727 /* LICENSE */,
+				20AAD3D3D952F4EDB3378F658F604EA6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FA73D6A4A87658CD19444CB830881A4D /* AKPageFlipperCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				354F016D4A63ED15C11964AFC3BBF3E5 /* AKPageFlipperCollectionView.swift */,
+				F0D0C1351FA214F631C5292193E6F170 /* Pod */,
+				7BA768EAEE2515434A1CACD2465AEFAF /* Support Files */,
+			);
+			name = AKPageFlipperCollectionView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +269,7 @@
 			);
 			name = "Pods-AKPageFlipperCollectionView_Example";
 			productName = Pods_AKPageFlipperCollectionView_Example;
-			productReference = 668F16DE912C8C99906CABD624055290 /* Pods_AKPageFlipperCollectionView_Example.framework */;
+			productReference = 668F16DE912C8C99906CABD624055290 /* Pods-AKPageFlipperCollectionView_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		AE18221F2B0BAC4C532069382C3BE673 /* Pods-AKPageFlipperCollectionView_Tests */ = {
@@ -288,7 +288,7 @@
 			);
 			name = "Pods-AKPageFlipperCollectionView_Tests";
 			productName = Pods_AKPageFlipperCollectionView_Tests;
-			productReference = 4D5E35C6FD7D322B9CBF8DFD4ECE5AF8 /* Pods_AKPageFlipperCollectionView_Tests.framework */;
+			productReference = 4D5E35C6FD7D322B9CBF8DFD4ECE5AF8 /* Pods-AKPageFlipperCollectionView_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		C112AAB624BFDFB5E281A510CB9556DE /* AKPageFlipperCollectionView */ = {
@@ -296,7 +296,7 @@
 			buildConfigurationList = 6CBF3B0E3C51076F7F8733D269045238 /* Build configuration list for PBXNativeTarget "AKPageFlipperCollectionView" */;
 			buildPhases = (
 				B289821DB83EC5B33D2E67F09DC117EE /* Headers */,
-				386F8DD965CBDA03817366EA2B410EC8 /* Sources */,
+				37C4EF0BF5F3E73F36222BBA66D5141A /* Sources */,
 				72A0F549042CFEC6F3C139CB46B39A41 /* Frameworks */,
 				47A171827828D475800BB2CB7A47E37D /* Resources */,
 			);
@@ -306,7 +306,7 @@
 			);
 			name = AKPageFlipperCollectionView;
 			productName = AKPageFlipperCollectionView;
-			productReference = 870F00CB1205B6DD259CB37E7503269B /* AKPageFlipperCollectionView.framework */;
+			productReference = 870F00CB1205B6DD259CB37E7503269B /* AKPageFlipperCollectionView */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,11 +317,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
-				TargetAttributes = {
-					C112AAB624BFDFB5E281A510CB9556DE = {
-						LastSwiftMigration = 2620;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -332,6 +327,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 6A7183B6593D0104133655156AC7F553 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -376,12 +373,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		386F8DD965CBDA03817366EA2B410EC8 /* Sources */ = {
+		37C4EF0BF5F3E73F36222BBA66D5141A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5BA1048305DE14800C4A925 /* AKPageFlipperCollectionView.swift in Sources */,
-				B8B2F0B37DDE9EF7DBE700DFBAC332DA /* AKPageFlipperCollectionView-dummy.m in Sources */,
+				069205BC32352DD122AC761AA7F0E5C3 /* AKPageFlipperCollectionView.swift in Sources */,
+				9D53908C3D6D9BBB0E56B9C2EF5FC133 /* AKPageFlipperCollectionView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,86 +408,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A012DD60AA30C34698EBDCDBB4909A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B93CE9FEDB410C8F13681F925F2C9B5D /* Pods-AKPageFlipperCollectionView_Example.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-AKPageFlipperCollectionView_Example/Pods-AKPageFlipperCollectionView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AKPageFlipperCollectionView_Example/Pods-AKPageFlipperCollectionView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = YES;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		367E238C41A14A5A7467E64CEE46EB8D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27C9113B3087C475A0FD5FADE3FDE80F /* Pods-AKPageFlipperCollectionView_Tests.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-AKPageFlipperCollectionView_Tests/Pods-AKPageFlipperCollectionView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AKPageFlipperCollectionView_Tests/Pods-AKPageFlipperCollectionView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5DFB9967BFC7B80778603B902625702E /* Release */ = {
+		3533589548760F67A9275914F22AB437 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8E31026561E42F1CD9E7CEF5DAEA4FA3 /* Pods-AKPageFlipperCollectionView_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -522,7 +445,7 @@
 			};
 			name = Release;
 		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		44A4B2FB6211B90C1949A44A381F6D1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -577,16 +500,19 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		A338DFFB12CC027BE3B128E3EE864E94 /* Release */ = {
+		6067AA73F785843843C23D05DBEBD25D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D538D48A8B8D0C2689653DF1E9A5D450 /* Pods-AKPageFlipperCollectionView_Example.release.xcconfig */;
+			baseConfigurationReference = 27C9113B3087C475A0FD5FADE3FDE80F /* Pods-AKPageFlipperCollectionView_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -596,41 +522,32 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-AKPageFlipperCollectionView_Example/Pods-AKPageFlipperCollectionView_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AKPageFlipperCollectionView_Tests/Pods-AKPageFlipperCollectionView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AKPageFlipperCollectionView_Example/Pods-AKPageFlipperCollectionView_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-AKPageFlipperCollectionView_Tests/Pods-AKPageFlipperCollectionView_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				REGISTER_APP_GROUPS = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = YES;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		CB3F0382E6CCACF60A8CDB4C4CD6C837 /* Release */ = {
+		87482FBC4CB439C6CEAF6A37FF58ADE0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12F461D543110E6951B027B5A08F6882 /* AKPageFlipperCollectionView.release.xcconfig */;
+			baseConfigurationReference = A2F6A79B1326072E861447E0765B773D /* AKPageFlipperCollectionView.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -655,7 +572,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -663,7 +580,7 @@
 			};
 			name = Release;
 		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		A0DC1C2C814704734F83EAB35BB20B21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -729,11 +646,47 @@
 			};
 			name = Debug;
 		};
-		E899572BBF1474BDE06D361AFA6B4ADD /* Debug */ = {
+		A97498E2443DD92D5E25AC2E3E211BC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B637100C51691576005E6D6BAD89773E /* AKPageFlipperCollectionView.debug.xcconfig */;
+			baseConfigurationReference = B93CE9FEDB410C8F13681F925F2C9B5D /* Pods-AKPageFlipperCollectionView_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-AKPageFlipperCollectionView_Example/Pods-AKPageFlipperCollectionView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKPageFlipperCollectionView_Example/Pods-AKPageFlipperCollectionView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2D80F528E6DFE4D6F175A9F449FD808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F37C1B97B2D74B440BE09573EB620E1 /* AKPageFlipperCollectionView.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -758,13 +711,49 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		F35A24FAD4ABAEBA17D7FF9315F058B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D538D48A8B8D0C2689653DF1E9A5D450 /* Pods-AKPageFlipperCollectionView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-AKPageFlipperCollectionView_Example/Pods-AKPageFlipperCollectionView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKPageFlipperCollectionView_Example/Pods-AKPageFlipperCollectionView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -772,8 +761,8 @@
 		15729C6F77C544E5AE6DBAE1846EEE9A /* Build configuration list for PBXNativeTarget "Pods-AKPageFlipperCollectionView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A012DD60AA30C34698EBDCDBB4909A1 /* Debug */,
-				A338DFFB12CC027BE3B128E3EE864E94 /* Release */,
+				A97498E2443DD92D5E25AC2E3E211BC3 /* Debug */,
+				F35A24FAD4ABAEBA17D7FF9315F058B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -781,8 +770,8 @@
 		222AD25AB4976C994CF6EF89DAAAB96A /* Build configuration list for PBXNativeTarget "Pods-AKPageFlipperCollectionView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				367E238C41A14A5A7467E64CEE46EB8D /* Debug */,
-				5DFB9967BFC7B80778603B902625702E /* Release */,
+				6067AA73F785843843C23D05DBEBD25D /* Debug */,
+				3533589548760F67A9275914F22AB437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -790,8 +779,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				A0DC1C2C814704734F83EAB35BB20B21 /* Debug */,
+				44A4B2FB6211B90C1949A44A381F6D1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -799,8 +788,8 @@
 		6CBF3B0E3C51076F7F8733D269045238 /* Build configuration list for PBXNativeTarget "AKPageFlipperCollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E899572BBF1474BDE06D361AFA6B4ADD /* Debug */,
-				CB3F0382E6CCACF60A8CDB4C4CD6C837 /* Release */,
+				F2D80F528E6DFE4D6F175A9F449FD808 /* Debug */,
+				87482FBC4CB439C6CEAF6A37FF58ADE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,16 +9,10 @@
 Pod::Spec.new do |s|
   s.name             = 'AKPageFlipperCollectionView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AKPageFlipperCollectionView.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'A custom UICollectionView layout and control that provides realistic 3D page flipping transitions.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+AKPageFlipperCollectionView is a high-performance, plug-and-play UICollectionView subclass and custom layout for iOS. It provides realistic 3D page-folding and page-flipping transition effects with support for both vertical and horizontal orientations.
                        DESC
 
   s.homepage         = 'https://github.com/AurangzaibKhan1994/AKPageFlipperCollectionView'
@@ -29,6 +23,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '15.6'
+  s.swift_version = '5.0'
 
   s.source_files = 'AKPageFlipperCollectionView/Classes/**/*'
   

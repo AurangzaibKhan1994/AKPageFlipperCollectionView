@@ -687,7 +687,7 @@ open class AKPageFlipperCollectionView: UICollectionView, UIGestureRecognizerDel
                     let targetImg = captureSnapshotForCell(at: currentPage + 1)
                     foldOverlayView.configure(currentImage: currentImg, targetImage: targetImg, mode: activeFoldMode, orientation: flipOrientation)
                     foldOverlayView.frame = self.bounds
-                    self.bringSubview(toFront: foldOverlayView)
+                    self.bringSubviewToFront(foldOverlayView)
                     foldOverlayView.isHidden = false
                 } else if isBackward && currentPage > 0 {
                     isDirectionLocked = true
@@ -701,7 +701,7 @@ open class AKPageFlipperCollectionView: UICollectionView, UIGestureRecognizerDel
                     let targetImg = captureSnapshotForCell(at: currentPage - 1)
                     foldOverlayView.configure(currentImage: currentImg, targetImage: targetImg, mode: activeFoldMode, orientation: flipOrientation)
                     foldOverlayView.frame = self.bounds
-                    self.bringSubview(toFront: foldOverlayView)
+                    self.bringSubviewToFront(foldOverlayView)
                     foldOverlayView.isHidden = false
                 } else {
                     activeFoldMode = .disabled
@@ -748,7 +748,7 @@ open class AKPageFlipperCollectionView: UICollectionView, UIGestureRecognizerDel
         animDuration = max(0.12, TimeInterval(distance * 0.3))
         
         displayLink = CADisplayLink(target: self, selector: #selector(handleDisplayLinkUpdate))
-        displayLink?.add(to: .main, forMode: .commonModes)
+        displayLink?.add(to: .main, forMode: .common)
     }
     
     @objc private func handleDisplayLinkUpdate() {
