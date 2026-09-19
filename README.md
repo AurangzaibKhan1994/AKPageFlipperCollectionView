@@ -26,7 +26,7 @@
 
 | Vertical Flip | Horizontal Book Flip | Both Flips |
 | :---: | :---: | :---: |
-| <video src="https://github.com/user-attachments/assets/1e5398a8-2cac-4cf8-8a80-476079e8d66f" width="250" autoplay loop muted playsinline></video> | <video src="https://github.com/user-attachments/assets/d5822b94-bc0e-4a95-a407-cd5e61c67093" width="250" autoplay loop muted playsinline></video> | <video src="https://github.com/user-attachments/assets/dec0ea2c-d79a-42d7-bc39-1a6cebf95461" width="250" autoplay loop muted playsinline></video> |
+| <img width="524" height="1080" alt="AKPageFlipperCollectionView5" src="https://github.com/user-attachments/assets/31f5e763-91f8-4bf4-a5f2-5befb06a680b" /> | <img width="524" height="1080" alt="AKPageFlipperCollectionView6" src="https://github.com/user-attachments/assets/df1b3149-00fa-498c-8df2-ec85b19d2a23" /> | <img width="524" height="1080" alt="AKPageFlipperCollectionView7" src="https://github.com/user-attachments/assets/4efd4a06-ebbe-4917-be45-33ac591e6f48" /> |
 
 
 ## Installation
