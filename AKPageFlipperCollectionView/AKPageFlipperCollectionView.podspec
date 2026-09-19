@@ -25,7 +25,7 @@ AKPageFlipperCollectionView is a high-performance, plug-and-play UICollectionVie
   s.ios.deployment_target = '15.6'
   s.swift_version = '5.0'
 
-  s.source_files = 'AKPageFlipperCollectionView/Classes/**/*'
+  s.source_files = 'AKPageFlipperCollectionView/Classes/**/*', '**/Classes/**/*'
   
   # s.resource_bundles = {
   #   'AKPageFlipperCollectionView' => ['AKPageFlipperCollectionView/Assets/*.png']
