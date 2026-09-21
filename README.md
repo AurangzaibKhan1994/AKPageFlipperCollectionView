@@ -36,7 +36,7 @@
 Add `AKPageFlipperCollectionView` to your `Podfile`:
 
 ```ruby
-pod 'AKPageFlipperCollectionView', '~> 0.1.3'
+pod 'AKPageFlipperCollectionView', '~> 0.1.4'
 ```
 
 Then run:

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AKPageFlipperCollectionView'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A custom UICollectionView layout and control that provides realistic 3D page flipping transitions.'
 
   s.description      = <<-DESC
@@ -16,11 +16,7 @@ AKPageFlipperCollectionView is a high-performance, plug-and-play UICollectionVie
                        DESC
 
   s.homepage         = 'https://github.com/AurangzaibKhan1994/AKPageFlipperCollectionView'
-  s.screenshots      = [
-    'https://raw.githubusercontent.com/AurangzaibKhan1994/AKPageFlipperCollectionView/main/Screenshots/AKPageFlipperCollectionView1.gif',
-    'https://raw.githubusercontent.com/AurangzaibKhan1994/AKPageFlipperCollectionView/main/Screenshots/AKPageFlipperCollectionView2.gif',
-    'https://raw.githubusercontent.com/AurangzaibKhan1994/AKPageFlipperCollectionView/main/Screenshots/AKPageFlipperCollectionView3.gif'
-  ]
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AurangzaibKhan1994' => 'aurangzaibasadkhan1994@gmail.com' }
   s.source           = { :git => 'https://github.com/AurangzaibKhan1994/AKPageFlipperCollectionView.git', :tag => s.version.to_s }
