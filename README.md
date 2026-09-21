@@ -1,6 +1,7 @@
 # AKPageFlipperCollectionView
 
 [![Version](https://img.shields.io/cocoapods/v/AKPageFlipperCollectionView.svg?style=flat)](https://cocoapods.org/pods/AKPageFlipperCollectionView)
+[![SPM](https://img.shields.io/badge/Swift_Package_Manager-compatible-brightgreen.svg?style=flat)](https://github.com/AurangzaibKhan1994/AKPageFlipperCollectionView)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/AurangzaibKhan1994/AKPageFlipperCollectionView/blob/main/LICENSE)
 [![Platform](https://img.shields.io/badge/platform-iOS%2015.6%2B-blue.svg?style=flat)](https://cocoapods.org/pods/AKPageFlipperCollectionView)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
@@ -29,6 +30,13 @@
 
 
 ## Installation
+
+### Swift Package Manager (Recommended)
+
+In Xcode:
+1. Go to **File -> Add Package Dependencies...**
+2. Paste repository URL: `https://github.com/AurangzaibKhan1994/AKPageFlipperCollectionView.git`
+3. Select version rule `Up to Next Major Version` (`0.1.5`).
 
 ### CocoaPods
 
