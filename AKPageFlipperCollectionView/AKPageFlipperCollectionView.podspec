@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AKPageFlipperCollectionView'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A custom UICollectionView layout and control that provides realistic 3D page flipping transitions.'
 
   s.description      = <<-DESC

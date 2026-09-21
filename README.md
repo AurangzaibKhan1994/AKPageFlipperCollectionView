@@ -13,7 +13,6 @@
 - 🎨 **Dynamic Depth Shadows**: Realistic 3D crease and lighting shadows that dynamically update during user interaction.
 - ⚡ **120Hz ProMotion CADisplayLink**: Butter-smooth inertial physics easing curves.
 - 🚀 **Plug & Play**: Works with standard `UICollectionView` cells with zero custom cell subclassing required.
-- 🖼️ **Optional Delegate Protocol**: High-speed image provision protocol (`AKPageFlippingDelegate`) for 60+ FPS performance without view snapshotting overhead.
 
 ## Requirements
 
@@ -36,7 +35,7 @@
 Add `AKPageFlipperCollectionView` to your `Podfile`:
 
 ```ruby
-pod 'AKPageFlipperCollectionView', '~> 0.1.4'
+pod 'AKPageFlipperCollectionView', '~> 0.1.5'
 ```
 
 Then run:
@@ -65,18 +64,6 @@ collectionView.flipOrientation = .horizontal
 
 // Enable depth crease shadow overlays
 collectionView.isShadowEnabled = true
-```
-
-3. **(Optional) Direct Image Provisioning**:
-
-```swift
-collectionView.flippingDelegate = self
-
-extension ViewController: AKPageFlippingDelegate {
-    func pageFlippingCollectionView(_ collectionView: AKPageFlipperCollectionView, imageForPageAt index: Int) -> UIImage? {
-        return UIImage(named: "page_\(index)")
-    }
-}
 ```
 
 ## Author

@@ -24,10 +24,6 @@ public enum AKFoldMode {
     case disabled      // Idle / Inactive
 }
 
-// MARK: - Optional Delegate Protocol for Direct Image Provision
-@objc public protocol AKPageFlippingDelegate: AnyObject {
-    @objc optional func pageFlippingCollectionView(_ collectionView: AKPageFlipperCollectionView, imageForPageAt index: Int) -> UIImage?
-}
 
 // MARK: - 3. Custom Layout Attributes
 open class AKPageFlipLayoutAttributes: UICollectionViewLayoutAttributes {
@@ -498,7 +494,6 @@ open class AKPageFlipperCollectionView: UICollectionView, UIGestureRecognizerDel
     public private(set) var currentPage: Int = 0
     public private(set) var activeFoldMode: AKFoldMode = .disabled
     public private(set) var currentProgress: CGFloat = 0.0
-    public weak var flippingDelegate: AKPageFlippingDelegate?
     
     /// Set the flip orientation: .vertical (top/bottom fold) or .horizontal (left/right book fold)
     public var flipOrientation: AKFlipOrientation = .vertical
@@ -592,33 +587,11 @@ open class AKPageFlipperCollectionView: UICollectionView, UIGestureRecognizerDel
         }
     }
     
-    private func renderImageAspectFill(_ image: UIImage, targetSize: CGSize) -> UIImage {
-        let renderer = UIGraphicsImageRenderer(size: targetSize)
-        return renderer.image { _ in
-            let imageAspect = image.size.width / image.size.height
-            let targetAspect = targetSize.width / targetSize.height
-            
-            var drawRect: CGRect = .zero
-            if imageAspect > targetAspect {
-                let drawWidth = targetSize.height * imageAspect
-                drawRect = CGRect(x: (targetSize.width - drawWidth) / 2.0, y: 0, width: drawWidth, height: targetSize.height)
-            } else {
-                let drawHeight = targetSize.width / imageAspect
-                drawRect = CGRect(x: 0, y: (targetSize.height - drawHeight) / 2.0, width: drawHeight, height: targetSize.height)
-            }
-            image.draw(in: drawRect)
-        }
-    }
-    
     private func captureSnapshotForCell(at index: Int) -> UIImage? {
         guard index >= 0 && index < numberOfItems(inSection: 0) else { return nil }
         let indexPath = IndexPath(item: index, section: 0)
         let pageBounds = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height)
         guard pageBounds.width > 0 && pageBounds.height > 0 else { return nil }
-        
-        if let image = flippingDelegate?.pageFlippingCollectionView?(self, imageForPageAt: index) {
-            return renderImageAspectFill(image, targetSize: pageBounds.size)
-        }
         
         guard let cell = cellForItem(at: indexPath) else {
             return nil
