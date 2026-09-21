@@ -21,6 +21,13 @@
 - Swift 5.0+
 - Xcode 14+
 
+## Demo
+
+| Vertical Flip | Horizontal Book Flip | Both Flips |
+| :---: | :---: | :---: |
+| <img width="250" alt="Vertical Flip" src="../Screenshots/AKPageFlipperCollectionView1.gif" /> | <img width="250" alt="Horizontal Book Flip" src="../Screenshots/AKPageFlipperCollectionView2.gif" /> | <img width="250" alt="Both Flips" src="../Screenshots/AKPageFlipperCollectionView3.gif" /> |
+
+
 ## Installation
 
 ### CocoaPods
